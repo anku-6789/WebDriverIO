@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Sep 23 15:12:21 IST 2021","Thu Sep 23 15:12:26 IST 2021","4718","","Ecommmerce Application","","Ecommmerce Application","Login  fail page title","Login  fail page title",""
+"passed","Thu Sep 23 15:12:26 IST 2021","Thu Sep 23 15:12:29 IST 2021","3557","","Ecommmerce Application","","Ecommmerce Application","Login sucess page title Smoke","Login sucess page title Smoke",""
+"failed","Thu Sep 23 15:12:29 IST 2021","Thu Sep 23 15:13:03 IST 2021","33988","","Ecommmerce Application","","Ecommmerce Application","Login  fail page  with retry title","Login  fail page  with retry title",""

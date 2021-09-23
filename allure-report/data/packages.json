@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Ecommmerce Application",
+    "children" : [ {
+      "name" : "Login  fail page title",
+      "uid" : "346a195705d4b343",
+      "parentUid" : "17aa3613a911b3a55b700738c40fc5a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632390141544,
+        "stop" : 1632390146262,
+        "duration" : 4718
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-94.0.4606.54" ]
+    }, {
+      "name" : "Login sucess page title Smoke",
+      "uid" : "ab4d5e033a87f6c2",
+      "parentUid" : "17aa3613a911b3a55b700738c40fc5a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632390146262,
+        "stop" : 1632390149819,
+        "duration" : 3557
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-94.0.4606.54" ]
+    }, {
+      "name" : "Login  fail page  with retry title",
+      "uid" : "82d69fc54eea0d75",
+      "parentUid" : "17aa3613a911b3a55b700738c40fc5a0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632390149819,
+        "stop" : 1632390183807,
+        "duration" : 33988
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-94.0.4606.54" ]
+    } ],
+    "uid" : "17aa3613a911b3a55b700738c40fc5a0"
+  } ]
+}

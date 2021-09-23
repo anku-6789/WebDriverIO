@@ -1,0 +1,60 @@
+{
+  "c5a75fe84d9584525cb39988d31c0f3a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "346a195705d4b343",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632390141544,
+        "stop" : 1632390146262,
+        "duration" : 4718
+      }
+    } ]
+  },
+  "e773831d06f40d21219c99696824abdf" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "82d69fc54eea0d75",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title containing\n                \n                Expected: \"Rahul Shetty Academyewrwe\"\n                Received: \"LoginPage Practise | Rahul Shetty Academy\"",
+      "time" : {
+        "start" : 1632390149819,
+        "stop" : 1632390183807,
+        "duration" : 33988
+      }
+    } ]
+  },
+  "6e9a25929d454f89044034261e0f5d49" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab4d5e033a87f6c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632390146262,
+        "stop" : 1632390149819,
+        "duration" : 3557
+      }
+    } ]
+  }
+}

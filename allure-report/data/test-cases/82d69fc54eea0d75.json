@@ -1,0 +1,103 @@
+{
+  "uid" : "82d69fc54eea0d75",
+  "name" : "Login  fail page  with retry title",
+  "fullName" : "Ecommmerce Application.Login  fail page  with retry title",
+  "historyId" : "e773831d06f40d21219c99696824abdf",
+  "time" : {
+    "start" : 1632390149819,
+    "stop" : 1632390183807,
+    "duration" : 33988
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect window to have title containing\n                \n                Expected: \"Rahul Shetty Academyewrwe\"\n                Received: \"LoginPage Practise | Rahul Shetty Academy\"",
+  "statusTrace" : "Error: Expect window to have title containing\n                \n                Expected: \"Rahul Shetty Academyewrwe\"\n                Received: \"LoginPage Practise | Rahul Shetty Academy\"\n                    at Context.<anonymous> (/Users/amandhare/Desktop/webdriverio/test/specs/Ecommerce Application/firstTest.js:103:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect window to have title containing\n                \n                Expected: \"Rahul Shetty Academyewrwe\"\n                Received: \"LoginPage Practise | Rahul Shetty Academy\"",
+    "statusTrace" : "Error: Expect window to have title containing\n                \n                Expected: \"Rahul Shetty Academyewrwe\"\n                Received: \"LoginPage Practise | Rahul Shetty Academy\"\n                    at Context.<anonymous> (/Users/amandhare/Desktop/webdriverio/test/specs/Ecommerce Application/firstTest.js:103:19)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9e9c8c82ae995ca8",
+      "name" : "Screenshot",
+      "source" : "9e9c8c82ae995ca8.png",
+      "type" : "image/png",
+      "size" : 1510711
+    }, {
+      "uid" : "5abe418db5d36aff",
+      "name" : "Screenshot",
+      "source" : "5abe418db5d36aff.png",
+      "type" : "image/png",
+      "size" : 1510567
+    }, {
+      "uid" : "f426e0b561793394",
+      "name" : "Screenshot",
+      "source" : "f426e0b561793394.png",
+      "type" : "image/png",
+      "size" : 1510384
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ecommmerce Application"
+  }, {
+    "name" : "testClass",
+    "value" : "Ecommmerce Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login  fail page  with retry title"
+  }, {
+    "name" : "package",
+    "value" : "Ecommmerce Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-94.0.4606.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b4dd650f4cd7eb7e",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title containing\n                \n                Expected: \"Rahul Shetty Academyewrwe\"\n                Received: \"LoginPage Practise | Rahul Shetty Academy\"",
+      "time" : {
+        "start" : 1632389100398,
+        "stop" : 1632389133661,
+        "duration" : 33263
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "82d69fc54eea0d75.json",
+  "parameterValues" : [ "Chrome-94.0.4606.54" ]
+}

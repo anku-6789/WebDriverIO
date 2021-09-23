@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Login  fail page title",
+    "uid" : "346a195705d4b343",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632390141544,
+      "stop" : 1632390146262,
+      "duration" : 4718
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome-94.0.4606.54" ]
+  }, {
+    "name" : "Login sucess page title Smoke",
+    "uid" : "ab4d5e033a87f6c2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632390146262,
+      "stop" : 1632390149819,
+      "duration" : 3557
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome-94.0.4606.54" ]
+  }, {
+    "name" : "Login  fail page  with retry title",
+    "uid" : "82d69fc54eea0d75",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1632390149819,
+      "stop" : 1632390183807,
+      "duration" : 33988
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome-94.0.4606.54" ]
+  } ]
+}

@@ -1,0 +1,97 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632391704568' stop='1632391785834'>
+    <name>Functional testing of application</name>
+    <title>Functional testing of application</title>
+    <test-cases>
+        <test-case start='1632391704569' status='broken' stop='1632391714398'>
+            <name>Scrolling AND MOUSE OVER SCENARIO</name>
+            <title>Scrolling AND MOUSE OVER SCENARIO</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-94.0.4606.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='40afebf6-9d28-445f-b5c2-5a2a1c5cee3e-attachment.png' type='image/png' size='814259'/>
+            </attachments>
+            <failure>
+                <message>Node is either not visible or not an HTMLElement</message>
+                <stack-trace>Node is either not visible or not an HTMLElement
+                Error: Node is either not visible or not an HTMLElement
+                    at ElementHandle.clickablePoint (/Users/amandhare/Desktop/webdriverio/node_modules/puppeteer-core/lib/cjs/puppeteer/common/JSHandle.js:330:19)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at async ElementHandle.click (/Users/amandhare/Desktop/webdriverio/node_modules/puppeteer-core/lib/cjs/puppeteer/common/JSHandle.js:391:26)
+                    at Element.&lt;anonymous> (/Users/amandhare/Desktop/webdriverio/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:239:24)
+                    at Context.&lt;anonymous> (/Users/amandhare/Desktop/webdriverio/test/specs/Ecommerce Application/functional.js:13:11)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1632391714398' status='broken' stop='1632391774401'>
+            <name>cheking the window based alert</name>
+            <title>cheking the window based alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-94.0.4606.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Functional testing of application cheking the window based alert" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/amandhare/Desktop/webdriverio/test/specs/Ecommerce Application/functional.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Functional testing of application cheking the window based alert" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/amandhare/Desktop/webdriverio/test/specs/Ecommerce Application/functional.js)
+                    at createTimeoutError (/Users/amandhare/Desktop/webdriverio/node_modules/mocha/lib/errors.js:498:15)
+                    at Test.Runnable._timeoutError (/Users/amandhare/Desktop/webdriverio/node_modules/mocha/lib/runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (/Users/amandhare/Desktop/webdriverio/node_modules/mocha/lib/runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:557:17)
+                    at processTimers (internal/timers.js:500:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1632391774401' status='passed' stop='1632391775025'>
+            <name>validating web table sort </name>
+            <title>validating web table sort </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-94.0.4606.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1632391775026' status='failed' stop='1632391785834'>
+            <name>search  sort table functioanlity</name>
+            <title>search  sort table functioanlity</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-94.0.4606.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d41a94dc-ab13-4c20-904e-81b8f44782c2-attachment.png' type='image/png' size='60813'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`tr td:nth-child(1)`) to have text
+                
+                Expected: "tomato"
+                Received: "Tomato"</message>
+                <stack-trace>Error: Expect $(`tr td:nth-child(1)`) to have text
+                
+                Expected: "tomato"
+                Received: "Tomato"
+                    at Context.&lt;anonymous> (/Users/amandhare/Desktop/webdriverio/test/specs/Ecommerce Application/functional.js:75:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

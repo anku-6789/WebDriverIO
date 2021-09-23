@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632389092475' stop='1632389133661'>
+    <name>Ecommmerce Application</name>
+    <title>Ecommmerce Application</title>
+    <test-cases>
+        <test-case start='1632389092477' status='passed' stop='1632389097056'>
+            <name>Login  fail page title</name>
+            <title>Login  fail page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-94.0.4606.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1632389097057' status='passed' stop='1632389100397'>
+            <name>Login sucess page title Smoke</name>
+            <title>Login sucess page title Smoke</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-94.0.4606.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1632389100398' status='failed' stop='1632389133661'>
+            <name>Login  fail page  with retry title</name>
+            <title>Login  fail page  with retry title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-94.0.4606.54'/>
+                <parameter kind='argument' name='browser' value='Chrome-94.0.4606.54'/>
+                <parameter kind='argument' name='browser' value='Chrome-94.0.4606.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='82892a74-1c42-48f4-87b7-cdc2f5e977cb-attachment.png' type='image/png' size='1509564'/>
+                <attachment title='Screenshot' source='bc9825a9-9cc1-4c21-8090-8ec4ff3fcb6f-attachment.png' type='image/png' size='1510384'/>
+                <attachment title='Screenshot' source='58f48971-9b1b-4e7f-9895-72cf89b70037-attachment.png' type='image/png' size='1510384'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have title containing
+                
+                Expected: "Rahul Shetty Academyewrwe"
+                Received: "LoginPage Practise | Rahul Shetty Academy"</message>
+                <stack-trace>Error: Expect window to have title containing
+                
+                Expected: "Rahul Shetty Academyewrwe"
+                Received: "LoginPage Practise | Rahul Shetty Academy"
+                    at Context.&lt;anonymous> (/Users/amandhare/Desktop/webdriverio/test/specs/Ecommerce Application/firstTest.js:103:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

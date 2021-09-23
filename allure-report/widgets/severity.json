@@ -1,0 +1,31 @@
+[ {
+  "uid" : "346a195705d4b343",
+  "name" : "Login  fail page title",
+  "time" : {
+    "start" : 1632390141544,
+    "stop" : 1632390146262,
+    "duration" : 4718
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab4d5e033a87f6c2",
+  "name" : "Login sucess page title Smoke",
+  "time" : {
+    "start" : 1632390146262,
+    "stop" : 1632390149819,
+    "duration" : 3557
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82d69fc54eea0d75",
+  "name" : "Login  fail page  with retry title",
+  "time" : {
+    "start" : 1632390149819,
+    "stop" : 1632390183807,
+    "duration" : 33988
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

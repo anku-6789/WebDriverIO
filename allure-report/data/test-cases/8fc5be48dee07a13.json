@@ -1,0 +1,56 @@
+{
+  "uid" : "8fc5be48dee07a13",
+  "name" : "Login sucess page title Smoke",
+  "fullName" : "Ecommmerce Application.Login sucess page title Smoke",
+  "historyId" : "6e9a25929d454f89044034261e0f5d49",
+  "time" : {
+    "start" : 1632389097057,
+    "stop" : 1632389100397,
+    "duration" : 3340
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ecommmerce Application"
+  }, {
+    "name" : "testClass",
+    "value" : "Ecommmerce Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login sucess page title Smoke"
+  }, {
+    "name" : "package",
+    "value" : "Ecommmerce Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-94.0.4606.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8fc5be48dee07a13.json",
+  "parameterValues" : [ "Chrome-94.0.4606.54" ]
+}

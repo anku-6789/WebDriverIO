@@ -1,0 +1,29 @@
+{
+  "name": "webdriverio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Retry" : "npx wdio run wdio.conf.js",
+    "FunationalTesting" : "npx wdio run wdio.conf.js --suite FunctionalTest ",
+    "Ecommerce app" :"npx wdio run wdio.conf.js --suite Ecommerce",
+    "UAT" : "npx wdio run wdiouat.conf.js",
+    "GenerateReports" :"allure generate allure-results --clean && allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^7.9.0",
+    "@wdio/local-runner": "^7.10.0",
+    "@wdio/mocha-framework": "^7.10.0",
+    "@wdio/spec-reporter": "^7.10.0",
+    "chai": "^4.3.4",
+    "chromedriver": "^92.0.4606.541",
+    "wdio-chromedriver-service": "^7.2.2"
+  },
+  "dependencies": {
+    "@wdio/sync": "^7.10.0"
+  }
+}
